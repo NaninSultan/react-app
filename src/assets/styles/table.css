@@ -1,0 +1,29 @@
+table {
+    margin: 24px auto;
+    border: 1px solid #369;
+}
+
+table th {
+    background-color: #369;
+    color: white;
+}
+
+table tr {
+    cursor: pointer;
+    background-color: #eaeaea;
+    height: 36px;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: #fafafa;
+}
+
+table td {
+    padding: 2px 8px;
+    border-radius: 1px solid #369;
+}
+
+table td:last-child {
+    padding: 2px 8px;
+    border-right: none;
+}
